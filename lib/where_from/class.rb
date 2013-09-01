@@ -13,7 +13,10 @@ class Class
 
 
   #
-  # 
+  # Return an array of all Classes containing a given
+  # method in inheritance order
+  #
+  # method_symbol - the name of the method to search by
   #
   def superclasses_with_method(method_symbol)
     all_superclasses = superclasses
